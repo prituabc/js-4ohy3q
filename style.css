@@ -1,0 +1,45 @@
+body {
+  background: white; /* try type yellow */
+  color: #323232;
+
+  margin: 0;
+  height: 100vh;
+
+  
+  font-family: Helvetica neue, roboto;
+  overflow-x: hidden; 
+}
+header{
+  position: absolute;
+  height: 40px;
+  background: #558bff;
+  width: calc(100% - 20px);
+  padding: 10px;
+}
+h4{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+main{
+  position: absolute;
+  height: calc(100vh - 60px - 20px);
+  width: calc(100vw - 20px);
+  /* background: #e0e0e0; */
+  left: 0;
+  top: 60px;
+  padding: 10px;
+}
+img {
+ width: 80px;
+ height: 80px;
+ border-radius: 50%;
+}
+.card {
+ box-shadow: 10px 10px 5px 0px rgba(238, 238, 238, 1);
+ margin: 15px;
+ text-align: center;
+ padding-bottom: 10px;
+}
